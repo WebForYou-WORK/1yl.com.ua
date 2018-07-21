@@ -1,0 +1,26 @@
+ @media screen and (max-width: 960px) {
+    
+}
+@media screen and (max-width: 770px) {
+    
+    .name{justify-content: center;
+    margin-top: 2%;}
+    .phone{
+        align-self: center;
+        margin: 1% 0;
+        min-height: 20px;
+        padding-top: 0;
+    }
+    .navlist{ min-height: 30px;}
+}
+@media screen and (max-width: 360px) {
+    
+    .hname{
+        font-size: 110%;}
+    .slname {
+        font-size: 85%;
+    }
+    .anav{
+        font-size: 75%;
+    }
+}
