@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    color:#02212f;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 493px;
+    background: #02212f;
+    align-items: center;
+}
+/*      icon            */
+#icon{
+    width: 90%;
+    display: flex;
+    height: 30px;
+    justify-content: flex-end;
+}
+.icon{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon a{color: #ffffff;}
+/*      end icon        */
+/*      namelog       */
+#namelog{
+    width: 100%;
+    min-height: 93px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.namelog{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.name{
+    flex: 1 340px;
+    display: flex;
+}
+.hname{font-size: 34px;
+    font-family: "Times New Roman";
+    color: rgb(204, 0, 1);
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 20px;}
+.hsl{
+    text-transform: uppercase;
+    color: #344a54;
+    margin: 0 20px;
+}
+.navbar {
+    flex: 9 354px;
+    text-align: right;
+    }
+.ulnav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px 0;
+}
+.phone{
+margin-right: 10%;
+}
+.bp{font-size: 19px;}
+.phone a, .anav{
+    font-size: 15px;
+    color: #344a54;
+   }
+#main{
+    width: 100%;
+    min-height: 395px;
+    background: url("../img/fon/fonhead.png") no-repeat center;
+    background-size: cover;
+}
+
+/*      end namelog       */
+/*      namelog       */
+/*      end namelog       */

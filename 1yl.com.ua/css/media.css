@@ -1,0 +1,26 @@
+@media screen and (max-width: 960px) {
+    .icon{width: 35%;}
+}
+@media screen and (max-width: 770px) {
+    .icon{width: 45%;}
+    .name{justify-content: center;
+        margin-top: 2%;}
+    .navbar{
+        text-align: center;
+    }
+    .phone{margin: 0;}
+}
+@media screen and (max-width: 370px) {
+    .icon{width: 70%;}
+    .hname{
+        font-size: 170%;}
+    .hsl{
+        font-size: 90%;
+    }
+    .bp{
+        font-size: 16px;
+    }
+    .phone a,.anav{
+        font-size: 80%;
+    }
+}
